@@ -1,6 +1,3 @@
-from ctypes import sizeof
-
-
 print ("hello world")
 #Numeric printing
 print (1234)
@@ -53,3 +50,27 @@ car={"make":"Toyota","model":"Camry","year":2020,"color":"Blue"}
 print (f"Car model: {car['model']}")
 car["owner"]="Rahul"
 print(f"Updated car dictionary: {car}")
+#if-else condition
+Name="Simran_testcase"
+if Name=="Simran":
+  print("matched")
+else:
+  print("not matched")
+print ("This is a test case which is completed")
+
+#For loop
+Testcase=["Simran_testcase","Rahul_testcase","Rohit_testcase","Ankit_testcase","Amit_testcase"]
+for i in range(0,5,2):
+  print (f"Testcase name passed:",{Testcase[i]})
+#Sum in for loop
+sum=0
+for i in range(1,6):
+  sum=sum+i
+print (f"Sum of first five natural numbers is: {sum}")
+#While loop
+count=0
+while(count<11):
+  print (f"Count value is: {count}")
+  count=count+1
+print ("This is a test case which is completed")
+
