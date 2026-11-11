@@ -74,3 +74,19 @@ while(count<11):
   count=count+1
 print ("This is a test case which is completed")
 
+#String
+str="Rahul is a good boy"
+print(f"Extracting R:{str[0]}")
+#String slicing
+print(f"Extracting Rahul:{str[0:5]}")
+str1="Simran is a good girl"
+str2="good"
+print(f"concatenation:{str + ' ' + str1}")
+#String present
+print(str2 in str1)
+#Splitting string
+print(f"Splitting string:{str1.split("i")}")
+#strip
+str3="   Rahul is a good boy   "
+print(f"Before strip:{str3}")
+print(f"After strip:{str3.strip()}")
